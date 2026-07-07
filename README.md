@@ -110,7 +110,7 @@ def save(self, img, path):
 ## Как запустить
 ```bash
 pip install opencv-python numpy pillow
-python sepia_vignette_app.py
+python sepiaApp.py
 ```
 
 1. На вкладке «Настройки» нажмите «Загрузить изображение» и выберите
