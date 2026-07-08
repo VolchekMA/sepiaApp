@@ -47,7 +47,7 @@
 
 ### Результат работы
 ```
-(https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
+[Image alt](https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
 ```
 При включённом флажке изображение приобретает характерный
 коричневатый оттенок сепии.
