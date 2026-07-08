@@ -46,9 +46,9 @@
 типу `uint8`, чтобы не допустить переполнения яркости.
 
 ### Результат работы
-```
-[Image alt](https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
-```
+
+(https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
+
 При включённом флажке изображение приобретает характерный
 коричневатый оттенок сепии.
 
