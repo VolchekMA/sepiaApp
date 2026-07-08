@@ -46,9 +46,8 @@
 типу `uint8`, чтобы не допустить переполнения яркости.
 
 ### Результат работы
-```python
-sepia_img = cv2.transform(img, self.SEPIA_MATRIX)
-sepia_img = np.clip(sepia_img, 0, 255).astype(np.uint8)
+```
+(https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
 ```
 При включённом флажке изображение приобретает характерный
 коричневатый оттенок сепии.
@@ -70,13 +69,8 @@ sepia_img = np.clip(sepia_img, 0, 255).astype(np.uint8)
 `apply_sepia`, затем к результату всегда применяется `apply_vignette`.
 
 ### Результат работы
-```python
-def process(self, sepia_enabled, radius):
-    img = self.original.copy()
-    if sepia_enabled:
-        img = self.apply_sepia(img)
-    img = self.apply_vignette(img, radius)
-    return img
+```
+(https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr2.png)
 ```
 При перемещении ползунка на значение, близкое к 50, края изображения
 затемняются значительно сильнее, чем при значении, близком к 300.
@@ -97,9 +91,8 @@ def process(self, sepia_enabled, radius):
 изображение через `cv2.imwrite`.
 
 ### Результат работы
-```python
-def save(self, img, path):
-    cv2.imwrite(path, img)
+```
+(https://github.com/VolchekMA/sepiaApp/raw/main/screenshots/scr1.png)
 ```
 Пользователь выбирает расширение файла (`.png` или `.jpg`) в диалоговом
 окне сохранения, после чего стилизованное изображение записывается на
